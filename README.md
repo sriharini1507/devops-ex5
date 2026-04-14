@@ -15,14 +15,14 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat "python -m venv venv"
+                bat "C:\\Users\\Harini\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m venv venv"
                 bat "call venv\\Scripts\\activate && pip install -r requirements.txt"
             }
         }
 
         stage('Run Streamlit App') {
             steps {
-                bat "call venv\\Scripts\\activate && streamlit run streamlit_app.py --server.headless true"
+                bat "call venv\\Scripts\\activate && python -m streamlit run streamlit_app.py --server.headless true"
             }
         }
     }
