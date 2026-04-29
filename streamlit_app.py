@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Smart harini Analyzer", layout="centered")
+st.set_page_config(page_title="harini Analyzer", layout="centered")
 
-st.title("💰 Smart harini Expense Analyzer")
+st.title("💰 harini Expense Analyzer")
 st.write("Analyze harini's expenses and savings easily!")
 
 # Input section
