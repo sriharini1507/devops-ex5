@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Smart harini Analyzer", layout="centered")
 
 st.title("💰 Smart harini Expense Analyzer")
-st.write("Analyze your expenses and savings easily!")
+st.write("Analyze harini's expenses and savings easily!")
 
 # Input section
 income = st.number_input("Enter your monthly income (₹)", min_value=0)
