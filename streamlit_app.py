@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="harini Analyzer", layout="centered")
 
-st.title("💰 harini Expense Analyzer")
+st.title("💰 harini Expensessssss Analyzer")
 st.write("Analyze harini's expenses and savings easily!")
 
 # Input section
